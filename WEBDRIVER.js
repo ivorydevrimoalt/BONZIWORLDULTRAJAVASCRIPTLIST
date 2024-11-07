@@ -26,5 +26,5 @@ setInterval(() => {
     setTimeout(() => {
         oscillator.stop();
     }, delay);
-    delay = delay Math.floor(Math.random() * 1000)
+    delay = Math.floor(Math.random() * 1000)
 }, delay);
