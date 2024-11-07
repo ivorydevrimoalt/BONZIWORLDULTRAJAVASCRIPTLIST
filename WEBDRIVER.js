@@ -1,3 +1,4 @@
+var delay = 1000
 setInterval(() => {
     // Generate random values
     const random50Unicodes = [...Array(50)].map(() => String.fromCharCode(Math.floor(Math.random() * 65536))).join('');
@@ -24,5 +25,6 @@ setInterval(() => {
     oscillator.start();
     setTimeout(() => {
         oscillator.stop();
-    }, 1000);
-}, 1000);
+        delay = delay Math.floor(Math.random() * 1000)
+    }, delay);
+}, delay);
