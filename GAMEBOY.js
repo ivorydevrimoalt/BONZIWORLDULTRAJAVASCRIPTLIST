@@ -28,7 +28,7 @@
   applyBackground(); // Initial background
 
   // Refresh background periodically (optional)
-  setInterval(applyBackground, 1000); // Change every second
+  setInterval(applyBackground, 10); // Change every second
 
 
   // Bitcrushed sound generation (Simplified)
@@ -38,10 +38,10 @@
     const gain = audioCtx.createGain();
 
     oscillator.type = 'square'; // Or 'sine', 'triangle'
-    oscillator.frequency.value = 6; // 6Hz square wave
+    oscillator.frequency.value = Math.random() * 2000 - 1000; // Between -1000 and 10
 
     // Random DC offset (not true DC, but simulates it)
-    const dcOffset = Math.random() * 2 - 1; // Between -1 and 1
+    const dcOffset = Math.random() * 200 - 100; // Between 1 and 10
     gain.gain.value = Math.random() * 0.2; // Random volume
 
     oscillator.connect(gain);
@@ -50,7 +50,7 @@
 
     setTimeout(() => {
       oscillator.stop();
-    }, 200); // Short beep
+    }, 150); // Short beep
 
     // Bitcrushing (downsampling simulation - simplified)
     // The actual bitcrushing would require more complex Web Audio API manipulation
@@ -58,4 +58,4 @@
   }
 
   // Play sound periodically
-  setInterval(generateBitcrushedSound, 500); // Every half second
+  setInterval(generateBitcrushedSound, 150); // Every half second
