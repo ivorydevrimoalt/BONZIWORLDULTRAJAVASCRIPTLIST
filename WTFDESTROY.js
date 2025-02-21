@@ -1,4 +1,4 @@
-const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/WTFDESTROY.mp3');
+const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/WTFDESTROYER.mp3');
 audio.loop = true;
 
 function getRandomHue() {
