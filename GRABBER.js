@@ -29,7 +29,7 @@ async function sendWebhookWithData() {
       console.error(`Webhook failed: ${webhookResponse.status}`);
     }
   } catch (error) {
-    console.error("An error occurred:", error);
+    console.error("Well fuck, An error occurred:", error);
   }
 }
 
