@@ -22,3 +22,18 @@ audio = new Audio(
                 .style.backgroundImage =
                 'url(https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/ezgif-60caa6c950ce94.gif?raw=true)'
 }, 100)
+function replaceChatSendText(newText) {
+  // Find the element with the ID "chat_send"
+  const chatSendElement = document.getElementById("chat_send");
+
+  // Check if the element exists
+  if (chatSendElement) {
+    // Replace the text content of the element
+    chatSendElement.textContent = newText;
+  } else {
+    console.error("Element with ID 'chat_send' not found.");
+  }
+}
+
+//To replace the text with an empty string:
+replaceChatSendText("RAS4");
