@@ -2,3 +2,4 @@ const words = ['ananasini orangutani, pupapadabi, ananasi ooh monkey monkey monk
 const randomIndex = Math.floor(Math.random() * words.length);
 const randomWord = words[randomIndex];
 socket.emit('talk', { text: randomWord });
+alert( randomWord );
