@@ -14,11 +14,7 @@ function createSocketBots() {
   ];
 
   for (let i = 0; i < 11; i++) {
-    const socket = {
-      emit: function (eventName, data) {
-        console.log(`Socket ${i + 1} emitted: ${eventName}`, data);
-      },
-    };
+    const socket = io('//');
 
     socket.emit("client", "MAIN");
     socket.emit("login", { name: "IVORYCombined" });
