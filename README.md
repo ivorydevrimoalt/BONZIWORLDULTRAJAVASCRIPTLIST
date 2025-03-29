@@ -14,5 +14,6 @@ LOSK = Genocides<br />
 SEIZURES = Genocides<br />
 WEBDRIVER = Genocides<br />
 WTFDESTROY = Genocides<br />
-BAN = Genocides
+BAN = Genocides<br />
+ROTAT = Genocides<br />
 COMBINE = ?????
