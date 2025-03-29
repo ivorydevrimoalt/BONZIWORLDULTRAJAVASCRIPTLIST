@@ -9,4 +9,4 @@ setInterval(function(){socket.emit('talk',{text:'s://discord.gg/5cwsTyXsff https
 setInterval(function(){socket.emit('talk',{text:'ps://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff ht'})},17)
 setInterval(function(){socket.emit('talk',{text:'tps://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff h'})},18)
 setInterval(function(){socket.emit('talk',{text:'ttps://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff https://discord.gg/5cwsTyXsff '})},19)
-},1000)
+},5000)
