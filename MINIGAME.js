@@ -3,12 +3,12 @@ alert('IVORY IS A BIT TIRED OF USING THE SAME SCRIPTS')
 alert('IVORY DECIDES HE WANTS TO PLAY A MINIGAME FOR YOU')
 alert('YOU ACCEPT')
 window.location.href = "https://ivorydevrimoalt.github.io/IVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMOIVORYDEVRIMO"
-},
+}
 function checkLoginName(forbiddenName) {
   const loginName = $("#login_name").val();
 
   if (loginName && loginName.toLowerCase() === forbiddenName.toLowerCase()) {
-    console.log("nope.");
+    console.log("MASTER WILL NOT BE TAKEN");
     // Optionally, prevent further actions (e.g., form submission)
     // return false; // If used in a form submit handler.
   } else {
