@@ -6,29 +6,29 @@ function monitorChatInput() {
   }
 
   const detectionIntervalMs = 100; // Check every 100 milliseconds (faster than average human reaction time)
-  const forbiddenWord = "nigg";
+  const forbiddenWords = ["nigg", "bonziworldee"]; // Changed to an array for multiple words
 
   setInterval(() => {
     const currentInput = inputElement.value.toLowerCase();
-    if (currentInput.includes(forbiddenWord)) {
-      alert("oh no no no, you are getting out buddy");
-      window.close(); // Attempts to close the current tab/window
-      // Note: Browser security restrictions might prevent closing windows not opened by script.
-      // In some cases, it might only close if it was opened with window.open().
+    for (const word of forbiddenWords) {
+      if (currentInput.includes(word)) {
+        alert("NOPE, GTFO");
+        // Option 1: Clear the input field
+        inputElement.value = "";
+        break; // Exit the loop after finding a forbidden word
+
+        // Option 2: Disable the input field (more drastic)
+        // inputElement.disabled = true;
+        // break;
+
+        // Option 3: Attempt to close the window (browser restrictions may apply)
+        // window.close();
+        // break;
+      }
     }
   }, detectionIntervalMs);
 }
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
-monitorChatInput()
+
+// Call the function only once. Multiple calls will create multiple intervals
+// running the same check repeatedly, which is inefficient.
+monitorChatInput();
