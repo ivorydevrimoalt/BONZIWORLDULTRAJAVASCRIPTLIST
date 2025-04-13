@@ -12,7 +12,7 @@ async function fetchAndEmit(url) {
       // Optionally, you could emit a "nope" message or handle it differently.
       socket.emit('talk', { text: "Good riddance, somebody will abuse it right infront of me" }); //Example of emitting nope
     } else {
-      socket.emit('talk', { text: text });
+      socket.emit('talk', { text: text + " FISHNETTED AND LEAKED BY IVORYDEVRIMOQR ON DISCORD"});
     }
 
   } catch (error) {
