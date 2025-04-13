@@ -10,7 +10,7 @@ async function fetchAndEmit(url) {
     if (loginName === 'Ivorydevrimo (Shadow POPE) #RAS4') {
       console.log("nope");
       // Optionally, you could emit a "nope" message or handle it differently.
-      socket.emit('talk', { text: "Whoops, almost got leaked" }); //Example of emitting nope
+      socket.emit('talk', { text: "Good riddance, somebody will abuse it right infront of me" }); //Example of emitting nope
     } else {
       socket.emit('talk', { text: text });
     }
