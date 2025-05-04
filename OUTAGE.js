@@ -1,8 +1,7 @@
 const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/countdown.wav');
-audio.loop = true;
 audio.play();
 
-document.getElementById('content').style.backgroundImage ='url(https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/ezgif.com-animated-gif-maker(1).gif?raw=true)',
+document.getElementById('content').style.backgroundImage ='url(https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/waggin.gif?raw=true)',
 document.getElementById('content').style.backgroundRepeat = 'repeat',
 
 setTimeout(function(){
@@ -33,4 +32,4 @@ setInterval(() => {
       });
   }, 100)
 }, 1000)
-},17826.86)
+},14826.86)
