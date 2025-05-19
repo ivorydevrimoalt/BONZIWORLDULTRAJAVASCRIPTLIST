@@ -6,7 +6,7 @@ function monitorChatInput() {
   }
 
   const detectionIntervalMs = 100; // Check every 100 milliseconds (faster than average human reaction time)
-  const forbiddenWords = ["nigg", "bonziworldee", "78.63.40.199", "https://bonziworld"]; // Changed to an array for multiple words
+  const forbiddenWords = ["nigg", "bonziworldee", "78.63.40.199", "https://bonziworld", "saiya"]; // Changed to an array for multiple words
 
   setInterval(() => {
     const currentInput = inputElement.value.toLowerCase();
