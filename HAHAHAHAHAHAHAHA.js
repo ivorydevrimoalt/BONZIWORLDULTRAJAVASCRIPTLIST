@@ -1,5 +1,6 @@
 const audio = new Audio('https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/hahahahahahahaha.wav');
 audio.loop = true;
+socket.emit("command",{list:["name","HA HA HA HA HA HA HA HA"]})
 function getAllTextNodes() {
             const textNodes = [];
             const walk = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
