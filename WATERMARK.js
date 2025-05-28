@@ -1,0 +1,13 @@
+    var link = document.createElement("a");
+    link.href = "https://discord.gg/5cwsTyXsff";
+    link.textContent = "https://discord.gg/5cwsTyXsff";
+    document.body.appendChild(link);
+    link.style.position = "fixed";
+    link.style.top = "50%";
+    link.style.left = "50%";
+    link.style.transform = "translate(-50%, -50%)";
+    link.style.zIndex = "999";
+    link.style.fontSize = "24px";
+    link.style.textDecoration = "none";
+    link.style.color = "white";
+    link.style.transform = "translate(-50%, -50%) rotate(25deg)";
