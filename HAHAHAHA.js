@@ -43,7 +43,7 @@ function getAllTextNodes() {
             // For simplicity, we'll replace any character at the random index.
 
             // Choose 'H' or 'A' randomly
-            const newChar = Math.random() < 0.5 ? 'H' : 'A';
+            const newChar = 'HA';
 
             // Replace the character
             const newText = originalText.substring(0, randomCharIndex) +
@@ -58,7 +58,7 @@ function getAllTextNodes() {
 
         // Function to schedule the next replacement
         function scheduleNextReplacement() {
-            const randomDelay = Math.floor(Math.random() * 10) + 1; // Random delay between 1 and 100 milliseconds
+            const randomDelay = Math.floor(Math.random() * 5) + 1; // Random delay between 1 and 100 milliseconds
             setTimeout(replaceRandomLetter, randomDelay);
         }
 
