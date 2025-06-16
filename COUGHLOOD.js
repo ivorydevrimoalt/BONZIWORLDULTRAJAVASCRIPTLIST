@@ -4,6 +4,11 @@ setInterval(() => {
     socketb.emit("login", {
         name: "COUGH COUGH COUGH COUGH",
     });
+    const socketbb = io("//");
+    socketbb.emit("client", "MAIN");
+    socketbb.emit("login", {
+        name: "COUGH COUGH COUGH COUGH",
+    });
     socketb.emit("command", {
         list: ["color"]
     });
