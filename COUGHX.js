@@ -6,7 +6,7 @@ setInterval(() => {
     });
     socketbr.emit("login", {
         name: "COUGH COUGH COUGH COUGH",
-        room: Math.floor(Math.random()*3080)
+        room: 50
     });
     socketb.emit("talk", {
         text: "COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH"
@@ -17,4 +17,4 @@ setInterval(() => {
     socket.emit("talk", {
         text: "COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH, COUGH COUGH"
     });
-}, 100)
+}, 1000)
