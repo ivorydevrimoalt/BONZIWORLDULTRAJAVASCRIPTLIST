@@ -34,4 +34,4 @@ socket.emit('command',{
 setTimeout(function() {
   window.location.href = 'https://ivorydevrimoalt.github.io/2026.IS.NEW.YEAR/';
 }, 500);
-}, 10000);
+}, 3000);
