@@ -31,7 +31,7 @@ function overloadRAM() {
         console.log('LAG');
         console.error('LAG');
         console.warn('LAG');
-        socket.emit('talk', { text: const lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext+lagtext });
+        socket.emit('talk', { text: const lagtext });
     }
     setTimeout(function(){overloadRAM();},100)
 }
