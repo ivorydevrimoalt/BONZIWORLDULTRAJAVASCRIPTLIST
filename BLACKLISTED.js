@@ -13,7 +13,7 @@ function monitorChatInput() {
     for (const word of forbiddenWords) {
       if (currentInput.includes(word)) {
         // Option 1: Clear the input field
-        inputElement.value = "i type in weird ass saiyan parts and ooh i like to advertize lololool i disobey ivorydevrimo and i love cp lalalala and cp and child gore the best lol i love baldifunrps sex";
+        inputElement.value = "i say the n word or bw stuff and just like that, boom, i paste copypastas and look at me i am going superspeed like /speed 6969696969696969696969696969 and just look at me sexy with all the lolis and stuff, report me to the police i can send you my ip";
         break; // Exit the loop after finding a forbidden word
 
         // Option 2: Disable the input field (more drastic)
