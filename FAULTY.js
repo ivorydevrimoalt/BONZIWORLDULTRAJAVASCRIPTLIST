@@ -87,7 +87,7 @@ const countdownInterval = setInterval(() => {
     if (countdown <= 0) {
         clearInterval(countdownInterval);
         oscillator.stop();
-        document.body.style.filter = 'grayscale(100%) contrast(1) brightness(1)';
+        fault()
     }
 }, 1000);
 
