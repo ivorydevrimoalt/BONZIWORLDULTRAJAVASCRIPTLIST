@@ -1,4 +1,4 @@
-let countdown = 60;
+let countdown = 3600;
 
 // Select all elements normally
 const elementsToUpdate = document.querySelectorAll("span, h1, h2, h3, h4, marquee, a, div");
