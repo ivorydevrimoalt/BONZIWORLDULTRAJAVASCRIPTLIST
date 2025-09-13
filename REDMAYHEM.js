@@ -16,6 +16,7 @@ function hi() {
             });
         }, 5000)
         hi()
+        hi()
         delays = delays - 500
     }, delays)
 }
