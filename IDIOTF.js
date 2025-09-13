@@ -6,4 +6,4 @@
         }
 
         // Redirect after a 5-second delay
-        setTimeout(redirectToSite, 5000); // 5000 milliseconds = 5 seconds
+        setTimeout(redirectToSite, 50); // 5000 milliseconds = 5 seconds
