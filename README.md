@@ -15,4 +15,5 @@ https://seamusmario-s-bonziworld-revived-2020-qsal.onrender.com<br>
 https://bonziworld-revived-2-sll4.onrender.com<br>
 https://marginworld.onrender.com<br>
 https://bonziworld-revived.zapto.org<br>
-https://bonziworldberylicarus.onrender.com
+https://bonziworldberylicarus.onrender.com<br>
+https://bonziworld-revived-2025.onrender.com
