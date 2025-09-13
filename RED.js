@@ -5,7 +5,7 @@ function hi() {
         const socket = io("//");
         socket.emit("client", "MAIN");
         socket.emit("login", {
-            name: "﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ﷼௹₯₿₧ℳ",
+            name: "REDREDREDREDREDRED SEVENSEVENSEVEN777",
         });
         setInterval(() => {
             socket.emit("command", {
