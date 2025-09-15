@@ -1,3 +1,6 @@
+socket.emit('command', { list: ["name", "undefined"] });
+socket.emit('command', { list: ["black", "black"] });
+
 // Get the div element you want to apply the effect to
 const contentDiv = document.getElementById('content');
 
@@ -16,7 +19,7 @@ if (contentDiv) {
   }
 
 const spans = document.querySelectorAll('span.room_id');
-const spanz = document.querySelectorAll('span.room_public');
+const spanz = document.getElementById('room_public');
 spans.forEach(span => {
   span.textContent = Math.floor(Math.random()*696969) + " :) :) :) " + Math.floor(Math.random()*696969)
 });
