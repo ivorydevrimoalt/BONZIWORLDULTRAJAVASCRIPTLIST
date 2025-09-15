@@ -1,5 +1,5 @@
 socket.emit('command', { list: ["name", "undefined"] });
-socket.emit('command', { list: ["black", "black"] });
+socket.emit('command', { list: ["color", "black"] });
 
 // Get the div element you want to apply the effect to
 const contentDiv = document.getElementById('content');
