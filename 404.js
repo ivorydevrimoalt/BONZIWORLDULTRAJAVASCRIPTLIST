@@ -19,12 +19,8 @@ if (contentDiv) {
   }
 
 const spans = document.querySelectorAll('span.room_id');
-const spanz = document.getElementById('room_public');
 spans.forEach(span => {
   span.textContent = Math.floor(Math.random()*696969) + " :) :) :) " + Math.floor(Math.random()*696969)
-});
-spanz.forEach(span => {
-  span.textContent = "This room is ???"
 });
 
 const originalElement = document.getElementById('chat_bar');
