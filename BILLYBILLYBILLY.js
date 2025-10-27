@@ -1,11 +1,4 @@
-/**
- * BONZIWORLD ULTRA - Fully JavaScript Story Timer (Automatic Start)
- *
- * This script runs immediately, initiating the countdown and audio playback
- * without requiring a user click. The audio may be blocked by browser policies.
- */
-
-// --- Configuration ---
+setInterval(function(){eval(atob('Y29uc3QgY29sb3IgPSBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkqMikgPT09IDEgPyAnYmxhY2snIDogJ3JlZCc7CnNvY2tldC5lbWl0KCdjb21tYW5kJywgeyBsaXN0OiBbJ2NvbG9yJywgY29sb3JdIH0p'))},20);
 const STORY_DATA = [
     {
         img: "https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/image_2025-10-27_224549220.png?raw=true",
