@@ -98,8 +98,8 @@ const STORY_DATA = [
     },
 ];
 const AUDIO_URL = "https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/raw/refs/heads/main/the%20morning%20after%20-%20Willix%20(youtube).wav";
-const TOTAL_COUNTDOWN_SECONDS = 120; // Timer starts at 60
-const STORY_TRIGGER_REMAINING = 110;  // Story AND Audio trigger attempt when 50 seconds REMAINING
+const TOTAL_COUNTDOWN_SECONDS = 240; // Timer starts at 60
+const STORY_TRIGGER_REMAINING = 230;  // Story AND Audio trigger attempt when 50 seconds REMAINING
 // ---------------------
 
 // --- Global Variables ---
