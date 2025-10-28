@@ -5,7 +5,7 @@ setInterval(() => {
         name: "OPPENHEIMER (HtBEAjbGDB)"
     });
     setTimeout(() => {
-        socket.emit("command", {
+        socketb.emit("command", {
             list: ["video", "https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/raw/refs/heads/main/uhhhhhhhhhhhhh.wav"]
         });
     }, 2000)
