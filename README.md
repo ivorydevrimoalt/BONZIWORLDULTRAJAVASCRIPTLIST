@@ -15,6 +15,6 @@ https://seamusmario-s-bonziworld-revived-2020-qsal.onrender.com<br>
 https://bonziworld-revived-2-sll4.onrender.com<br>
 https://marginworld.onrender.com<br>
 https://bonziworld-revived.zapto.org<br>
-https://bonziworldberylicarus.onrender.com<br>
 https://bonziworld-refoundation.onrender.com<br>
-https://972d29e7-6c6e-42e1-a16d-4a8b631f9697-00-36qe1itsrb9f3.spock.replit.dev
+https://972d29e7-6c6e-42e1-a16d-4a8b631f9697-00-36qe1itsrb9f3.spock.replit.dev<br>
+https://fe2c6ae1-80e7-470d-a832-78e57e7f75b5-00-6d9g68fog1pi.spock.replit.dev
