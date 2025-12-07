@@ -4,3 +4,4 @@ Chances, 3
 3. if ItzSticky wants to do something to you, i will do it to you everytime you join
 4. if e hd request me to do something to you, i will do it
 5. dont act like a kiddie
+6. Don't leave to avoid what you did
