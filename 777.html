@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>᲼</title>
+
+<style>
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+#blackout {
+    position: fixed;
+    inset: 0;
+    background: black;
+    z-index: 9999;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: auto;
+    transform: translate(-50%, -50%);
+    background: black;
+    z-index: 1;
+}
+
+#svgContainer {
+    position: fixed;
+    inset: 0;
+    display: none;
+    z-index: 2;
+    pointer-events: none;
+}
+
+#svgContainer svg {
+    width: 100%;
+    height: 100%;
+}
+</style>
+</head>
+
+<body>
+
+<div id="blackout"></div>
+
+<video
+    id="video"
+    muted
+    loop
+    playsinline
+    preload="auto"
+    disablepictureinpicture
+>
+    <source src="https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/convert%20(39).mp4" type="video/mp4">
+</video>
+
+<audio id="audio" preload="auto">
+    <source src="https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/cd.wav" type="audio/wav">
+</audio>
+
+<div id="svgContainer"></div>
+
+<script>
+const video = document.getElementById('video');
+const audio = document.getElementById('audio');
+const blackout = document.getElementById('blackout');
+const svgContainer = document.getElementById('svgContainer');
+
+const svgUrl = 'https://file.garden/ZsKtwCD-bXBSm1sZ/hqgyt5';
+const TRIGGER_TIME = 21.453;
+
+let started = false;
+let svgShown = false;
+
+/* SVG fetch */
+async function loadSVG() {
+    const res = await fetch(svgUrl);
+    const text = await res.text();
+    const doc = new DOMParser().parseFromString(text, "image/svg+xml");
+    const svg = doc.documentElement;
+
+    svg.setAttribute("width", "100%");
+    svg.setAttribute("height", "100%");
+    svg.setAttribute("preserveAspectRatio", "xMidYMid slice");
+
+    svgContainer.appendChild(svg);
+    video.pause();
+    svgContainer.style.display = "block";
+}
+
+/* Trigger check */
+function watchTime() {
+    if (!started) return;
+
+    if (!svgShown && video.currentTime >= TRIGGER_TIME) {
+        svgShown = true;
+        loadSVG();
+        video.currentTime = TRIGGER_TIME
+        return;
+    }
+
+    requestAnimationFrame(watchTime);
+}
+
+/* Start only when media is ready */
+function startSystem() {
+    if (started) return;
+    started = true;
+
+    blackout.remove();
+
+    audio.play().catch(() => {});
+    video.play().catch(() => {});
+
+    requestAnimationFrame(watchTime);
+}
+
+/* User interaction */
+document.addEventListener('pointerdown', () => {
+    video.muted = false;
+    document.title = "77777777777777777777777777777";
+
+    Promise.all([
+        new Promise(r => video.readyState >= 3 ? r() : video.addEventListener('canplaythrough', r, { once: true })),
+        new Promise(r => audio.readyState >= 3 ? r() : audio.addEventListener('canplaythrough', r, { once: true }))
+    ]).then(startSystem);
+}, { once: true });
+</script>
+
+</body>
+</html>
