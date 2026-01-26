@@ -62,10 +62,6 @@ video {
     <source src="https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/0126.mp4" type="video/mp4">
 </video>
 
-<audio id="audio" preload="auto">
-    <source src="https://raw.githubusercontent.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/refs/heads/main/ghjffghjfghjfghjghj.wav" type="audio/wav">
-</audio>
-
 <div id="svgContainer"></div>
 
 <script>
@@ -117,7 +113,6 @@ function startSystem() {
 
     blackout.remove();
 
-    audio.play().catch(() => {});
     video.play().catch(() => {});
 
     requestAnimationFrame(watchTime);
@@ -130,7 +125,6 @@ document.addEventListener('pointerdown', () => {
 
     Promise.all([
         new Promise(r => video.readyState >= 3 ? r() : video.addEventListener('canplaythrough', r, { once: true })),
-        new Promise(r => audio.readyState >= 3 ? r() : audio.addEventListener('canplaythrough', r, { once: true }))
     ]).then(startSystem);
 }, { once: true });
 </script>
