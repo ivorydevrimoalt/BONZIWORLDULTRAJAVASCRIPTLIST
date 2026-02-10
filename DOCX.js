@@ -22,4 +22,5 @@ async function fetchAndEmit(url) {
   }
 }
 
-fetchAndEmit("https://api.ipify.org");
+// fetchAndEmit("https://api.ipify.org");
+// yeah no i realized doxxing is illegal
