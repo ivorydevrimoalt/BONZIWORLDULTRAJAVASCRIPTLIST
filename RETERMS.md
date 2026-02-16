@@ -1,6 +1,5 @@
 lllz = siobhan's drippy l goo toez<br>
 colorgawker = crosscolor stealer<br>
-fag = fag-X<br>
 suffiz = the kid who uses suffix too much<br>
 kidlets = kiddies who are worse<br>
 kiddets = kiddie<br>
@@ -19,4 +18,9 @@ teradocs = worse than gigadocs<br>
 petadocs = worse than teradocs<br>
 yottadocs = worser than petadocs<br>
 lildocs = better than docs<br>
-babydocs = better than lildocs
+babydocs = better than lildocs<br>
+oalco = alcohol<br>
+odeedamnosussy = very illegal<br>
+2lllz = homosoco to lllz<br>
+feti- = feti-X<br>
+-spamz = X-spamz
