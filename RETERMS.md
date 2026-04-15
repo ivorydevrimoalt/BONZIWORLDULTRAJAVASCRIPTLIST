@@ -21,6 +21,7 @@ lildocs = better than docs<br>
 babydocs = better than lildocs<br>
 oalco = alcohol<br>
 odeedamnosussy = very illegal<br>
+-habi = "stop stealing my colors you colorgawkerhabi"<br>
 2lllz = homosoco to lllz<br>
 feti- = feti-X<br>
 -spamz = X-spamz<br>
