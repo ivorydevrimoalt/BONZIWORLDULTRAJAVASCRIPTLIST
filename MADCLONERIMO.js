@@ -6,9 +6,7 @@
 
   audio.volume = 1;
   // Use a promise catch to prevent errors if the browser blocks autoplay
-  audio.play().catch(() => {
-    console.log("Autoplay blocked: Interact with the page to hear sound.");
-  });
+  audio.play()
 
   setInterval(() => {
     // 1. Title chaos
