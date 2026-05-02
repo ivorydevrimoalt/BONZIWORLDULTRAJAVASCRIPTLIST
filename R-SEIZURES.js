@@ -60,7 +60,7 @@
         countdown.textContent = (time + " ").repeat(15).trim();
         if (time <= 0) {
             clearInterval(timer);
-            window.location.href = "https://bonziworld-avalon.onrender.com";
+            window.location.href = "https://bonziworld.eu";
         }
     }, 1000);
 
