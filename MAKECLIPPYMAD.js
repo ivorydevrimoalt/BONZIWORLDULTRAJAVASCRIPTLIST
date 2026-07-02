@@ -13,8 +13,8 @@ function monitorChatInput() {
     for (const word of forbiddenWords) {
       if (currentInput.includes(word)) {
         // Option 1: Clear the input field
-        inputElement.value = "im a nigga im a nigga im a nigga who posts GOFAG stuff and i tried making him mad ooh im a nigga nigga nigga";
-        socket.emit("talk", { text: "im a nigga im a nigga im a nigga who posts GOFAG stuff and i tried making him mad ooh im a nigga nigga nigga" })
+        inputElement.value = "im a retard im a retard im a retard who posts GOTARD stuff and i tried making him mad ooh im a retard retard retard";
+        socket.emit("talk", { text: "im a retard im a retard im a retard who posts GOTARD stuff and i tried making him mad ooh im a retard retard retard" })
         break; // Exit the loop after finding a forbidden word
 
         // Option 2: Disable the input field (more drastic)
