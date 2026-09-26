@@ -22,7 +22,7 @@ ULTIMATEJAVASCRIPT from ULTIMATEJAVASCRIPTLIST<br>
 https://www.youtube.com/watch?v=pKksjyewj7E<br>
 Btw you should subscribe to him it really helps out<br>
 Y/N: Who do you hate-<br>
-Me: Bakugo Niko Tracy and Fune<br>
+Me: Niko Tracy and Fune<br>
 Y/N: Hey have you watched yn meme have you watched blah blah blah<br>
 Me: Join the illegalblubbers im pretty sure you can also GTFO
 # What are the websites?
